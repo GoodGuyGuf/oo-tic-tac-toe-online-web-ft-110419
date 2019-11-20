@@ -54,15 +54,7 @@ WIN_COMBINATIONS = [
 
   def turn(input)
     puts "Play with numbers 1-9!"
-    gets current_player(input)
-
-      if valid_move?(input)
-        move(input)
-         display_board
-       else
-         puts "Try again!"
-       end
-    end
+    
 
 
   def won?
