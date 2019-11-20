@@ -142,16 +142,17 @@ WIN_COMBINATIONS = [
   def play
   "Hello players! Enter your input!"
   game_end = over?
-  while !game_end do
-    turn
-    game_end = over?
-  end
-  if draw?
-    puts "Cat's Game!"
+    while !game_end do
+      turn
+      game_end = over?
+    end
+    if draw?
+      puts "Cat's Game!"
     end
     if won?
      puts "Congratulations #{winner}!"
-   end 
+   end
+ end
 
 
   end
