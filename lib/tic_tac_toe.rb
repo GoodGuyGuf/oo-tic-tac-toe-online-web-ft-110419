@@ -98,7 +98,7 @@ WIN_COMBINATIONS = [
     elsif @board.length < @board.count
       false
     end
-end
+  end
 
 
   def draw?
