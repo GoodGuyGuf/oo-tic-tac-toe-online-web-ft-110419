@@ -99,7 +99,7 @@ WIN_COMBINATIONS = [
   def draw?
   if full?
     true
-  elsif won?
+  elsif won? && full?
     false
   end
   end
