@@ -53,7 +53,7 @@ WIN_COMBINATIONS = [
   end
 
   def turn(input)
-    @board.gets[input]
+    
 
   end
 
