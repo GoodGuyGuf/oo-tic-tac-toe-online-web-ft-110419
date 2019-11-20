@@ -98,7 +98,7 @@ WIN_COMBINATIONS = [
     elsif @board.length < 9
       false
     else
-      true
+      false
     end
   end
 
