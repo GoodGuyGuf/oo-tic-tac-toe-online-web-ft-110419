@@ -80,7 +80,7 @@ WIN_COMBINATIONS = [
       binding.pry
     @board[combo.first] == @board[combo[1]] &&
     @board[combo.first] == @board[combo[2]] &&
-    @board[combo.first]
+    @board[combo.first] !=
 
     end
 
