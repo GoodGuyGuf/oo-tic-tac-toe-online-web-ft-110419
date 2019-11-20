@@ -134,6 +134,8 @@ WIN_COMBINATIONS = [
 #should check if the game is won after every turn
 #should check if the game is draw after every turn
 #should stop playing if someone has won
+#should congratulate the winner X
+#should congratulate the winner O
   def play
 
   end
