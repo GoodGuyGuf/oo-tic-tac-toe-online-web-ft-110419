@@ -53,7 +53,7 @@ WIN_COMBINATIONS = [
   end
 
   def turn
-
+  gets current_player
 
 
   end
