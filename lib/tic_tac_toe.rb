@@ -53,9 +53,8 @@ WIN_COMBINATIONS = [
   end
 
   def turn
-  gets current_player
-
-
+    puts "Play with numbers 1-9!"
+    gets current_player
   end
 
 
