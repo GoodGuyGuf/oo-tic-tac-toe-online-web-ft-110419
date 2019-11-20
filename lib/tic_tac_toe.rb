@@ -110,7 +110,7 @@ WIN_COMBINATIONS = [
 #it should return O if O wins
 #should return nil if draw
   def winner
-    if won?
+    if won? #if won? iterates over detection of winning combo
       return @board[won?[0]]
     else
       return nil
