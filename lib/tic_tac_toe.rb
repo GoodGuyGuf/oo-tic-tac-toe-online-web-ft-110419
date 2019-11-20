@@ -61,7 +61,7 @@ WIN_COMBINATIONS = [
       display_board
     else
       
-    
+
 
   end
 
