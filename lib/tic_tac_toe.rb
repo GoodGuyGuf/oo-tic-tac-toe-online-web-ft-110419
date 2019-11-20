@@ -70,6 +70,7 @@ WIN_COMBINATIONS = [
       full = true
 
   end
+end
 
   def draw?
   won? || full?
