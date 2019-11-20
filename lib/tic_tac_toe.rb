@@ -61,8 +61,8 @@ WIN_COMBINATIONS = [
          display_board
        else
          puts "Try again!"
-  end
-end
+       end
+    end
 
   def won?
 
