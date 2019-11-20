@@ -57,6 +57,7 @@ WIN_COMBINATIONS = [
     input = gets
     index = input_to_index(input)
     token = current_player
+    
     move(index, token)
 
   end
