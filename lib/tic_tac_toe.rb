@@ -91,7 +91,12 @@ WIN_COMBINATIONS = [
 
     #won? contains a winning combo.
     #full should take every element as either an x or an o.
-    @board.length == " " || @board.length == @board[0] || @board[1]
+
+    #if the board length is less than the board count it should return false
+    if @board.all? == 'X' || 'O'
+      true
+    elsif @board.all? < @board.length
+      false
   end
 
 
