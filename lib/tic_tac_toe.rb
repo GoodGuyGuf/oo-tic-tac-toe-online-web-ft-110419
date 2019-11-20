@@ -136,6 +136,7 @@ WIN_COMBINATIONS = [
 #should stop playing if someone has won
 #should congratulate the winner X
 #should congratulate the winner O
+#should 
   def play
 
   end
