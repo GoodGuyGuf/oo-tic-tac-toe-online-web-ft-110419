@@ -87,6 +87,8 @@ WIN_COMBINATIONS = [
     true
   elsif @board.all? == " "
     false
+  else
+    true
   end
 end
 
