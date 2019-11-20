@@ -106,7 +106,7 @@ WIN_COMBINATIONS = [
   end
 
   def winner
-  won?
+  
   end
 
   def play
