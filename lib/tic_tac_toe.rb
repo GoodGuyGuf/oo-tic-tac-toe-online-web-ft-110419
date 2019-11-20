@@ -53,15 +53,14 @@ WIN_COMBINATIONS = [
   end
 
   def turn(input)
-    puts "It is your turn!"
+    game_speech = puts "It is your turn!"
     user_input = gets input
     input_to_index(user_input)
     if valid_move?
       move
       display_board
     else
-
-
+ game_speech
     end
 
   end
