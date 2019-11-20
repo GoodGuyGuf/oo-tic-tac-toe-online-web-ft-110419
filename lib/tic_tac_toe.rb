@@ -56,7 +56,6 @@ WIN_COMBINATIONS = [
     puts "Play with numbers 1-9!"
     player = gets current_player
 
-
   end
 
 
