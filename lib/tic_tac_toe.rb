@@ -89,7 +89,11 @@ WIN_COMBINATIONS = [
   def full?
  # if the board length is less than 9 then it is not full.
  # if the board length has a winner or a draw then it is full.
- binding.pry
+  full = true
+    if @board.all? == false
+      full = false
+    end
+      true
   end
 
   def draw?
