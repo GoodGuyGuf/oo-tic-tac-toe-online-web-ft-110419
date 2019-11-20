@@ -95,7 +95,7 @@ WIN_COMBINATIONS = [
 
 
   def draw?
-
+  won? == false && full? == true
   end
 
   def over?
