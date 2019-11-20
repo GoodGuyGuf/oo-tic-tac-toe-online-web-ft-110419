@@ -42,9 +42,7 @@ WIN_COMBINATIONS = [
   end
 
   def valid_move?(index)
-  #Should check if position is occupied
-  #Should expect 0 - 8 to be truthy as long as it is not occupied
-  #Should expect 4 to be falsey because it is occupied
+  
     if position_taken?(index)
       false
     elsif index < 0 || index > 8
@@ -86,10 +84,8 @@ WIN_COMBINATIONS = [
 
 
   def full?
-    binding.pry
-    @board.each do |array|
 
-    end
+
   end
 
   def draw?
