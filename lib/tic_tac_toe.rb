@@ -82,7 +82,7 @@ WIN_COMBINATIONS = [
   end
 
 
-  def full?(index)
+  def full?
   position_taken? == @board.length
   end
 
