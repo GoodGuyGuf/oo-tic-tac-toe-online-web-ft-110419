@@ -91,6 +91,8 @@ WIN_COMBINATIONS = [
     if @board.length == @board.length &&
       won? == false
       true
+    else
+      false
     end
   end
 
