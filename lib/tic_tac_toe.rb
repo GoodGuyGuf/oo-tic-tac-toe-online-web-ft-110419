@@ -152,8 +152,6 @@ WIN_COMBINATIONS = [
     if won?
      puts "Congratulations #{winner}!"
    end
-
-
   end
 
 end
