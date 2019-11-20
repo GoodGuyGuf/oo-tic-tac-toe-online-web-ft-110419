@@ -141,6 +141,7 @@ WIN_COMBINATIONS = [
 
   def play
   "Hello players! Enter your input!"
+  input = gets
   over? ? false : true
   end
 
