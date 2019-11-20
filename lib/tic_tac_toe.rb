@@ -55,7 +55,7 @@ WIN_COMBINATIONS = [
   def turn
     puts "Play with numbers 1-9!"
     gets current_player
-    gets input_to_index(current_player)
+    gets input_to_index[current_player]
 
   end
 
