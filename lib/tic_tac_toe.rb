@@ -72,7 +72,9 @@ WIN_COMBINATIONS = [
     end
   end
 
-
+  #The logic is that we don't know the outcome like the spec does.
+  #We don't actually know if the winning combo is [0,4,8]
+  #This method should work on any winning combo.
   def won?
     WIN_COMBINATIONS.detect do |combo|
     @board[combo.first] == @board[combo[1]] &&
@@ -80,15 +82,12 @@ WIN_COMBINATIONS = [
     @board[combo.first] != " "
     end
   end
-  #The logic is that we don't know the outcome like the spec does.
-  #We don't actually know if the winning combo is [0,4,8]
-  #This method should work on any winning combo.
 
   #Should return true for a draw
   #should return false if the board isn't filled
   #Should return true if every element in @board contains either an X or O
   def full?
-    
+
   end
 
   def draw?
