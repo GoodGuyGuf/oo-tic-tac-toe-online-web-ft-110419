@@ -44,6 +44,9 @@ WIN_COMBINATIONS = [
   def valid_move?(index)
     binding.pry
   @board[index] != position_taken?(index)
+  #Should check if position is occupied
+  #Should expect 0 - 8 to be truthy as long as it is not occupied
+  #Should exclude index = 4 because it is occupied
   end
 
   def turn_count
