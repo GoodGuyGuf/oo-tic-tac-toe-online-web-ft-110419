@@ -145,8 +145,8 @@ WIN_COMBINATIONS = [
   while !game_end do
     turn
     game_end = over?
-    
   end
+  
 
 
   end
