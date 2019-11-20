@@ -76,7 +76,7 @@ WIN_COMBINATIONS = [
 
 
   def won?
-  WIN_COMBINATIONS
+    WIN_COMBINATIONS
 
   end
 
