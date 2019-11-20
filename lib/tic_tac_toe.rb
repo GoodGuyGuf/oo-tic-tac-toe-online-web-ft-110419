@@ -132,6 +132,7 @@ WIN_COMBINATIONS = [
 #should play the first turn of the game
 #should play the first few turns of the game
 #should check if the game is won after every turn
+#should check if the game is draw after every turn
   def play
 
   end
