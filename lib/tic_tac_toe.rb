@@ -146,7 +146,12 @@ WIN_COMBINATIONS = [
     turn
     game_end = over?
   end
-  
+  if draw?
+    puts "Cat's Game!"
+    end
+    if won?
+     puts "Congratulations #{winner}!"
+   end 
 
 
   end
