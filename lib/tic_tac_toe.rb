@@ -42,11 +42,9 @@ WIN_COMBINATIONS = [
   end
 
   def valid_move?(index)
-
   #Should check if position is occupied
   #Should expect 0 - 8 to be truthy as long as it is not occupied
   #Should expect 4 to be falsey because it is occupied
-
   valid = true
     if position_taken?(index)
       valid = false
