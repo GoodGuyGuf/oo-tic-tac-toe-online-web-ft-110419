@@ -98,7 +98,7 @@ WIN_COMBINATIONS = [
 #false if the board is won, and false if the board is neither won nor full.
   def draw?
   full? == true && won? == false || won? == false || full? == false && won? == false
-  true
+  
   end
 
   def over?
