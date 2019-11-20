@@ -120,7 +120,6 @@ WIN_COMBINATIONS = [
 #until the game is over
   #take turns
 #end
-
 #if the game was won
   #congratulate the winner
 #else if the game was a draw
@@ -141,7 +140,7 @@ WIN_COMBINATIONS = [
 #should play through an entire game
 
   def play
-  
+
   end
 
 end
