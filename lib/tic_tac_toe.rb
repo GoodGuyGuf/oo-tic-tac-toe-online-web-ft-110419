@@ -94,6 +94,7 @@ WIN_COMBINATIONS = [
 
     #if the board length is less than the board count it should return false
   @board.length < @board.count
+end
 
 
   def draw?
