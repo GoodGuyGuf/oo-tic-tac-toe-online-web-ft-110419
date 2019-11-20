@@ -66,7 +66,7 @@ WIN_COMBINATIONS = [
 
   def full?
     full = false
-    if !!@board.length != @board.length || !!@board.length == @board.length
+    if !!@board.length != @board.length && !!@board.length == @board.length
       full = true
     end
     full
