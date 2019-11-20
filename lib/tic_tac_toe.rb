@@ -53,9 +53,15 @@ WIN_COMBINATIONS = [
   end
 
   def turn
-  
 
 
+    if valid_move?
+      move
+      display_board
+    else
+    
+
+    end
 
   end
 
