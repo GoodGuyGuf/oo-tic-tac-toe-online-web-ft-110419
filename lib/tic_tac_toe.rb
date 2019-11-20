@@ -86,7 +86,7 @@ WIN_COMBINATIONS = [
 
 
   def full?
-
+binding.pry
 
   end
 
