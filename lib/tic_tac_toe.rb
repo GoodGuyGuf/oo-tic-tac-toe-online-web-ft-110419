@@ -62,6 +62,7 @@ WIN_COMBINATIONS = [
   else
     input
 
+    end
   end
 
 
