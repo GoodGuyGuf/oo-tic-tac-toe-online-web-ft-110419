@@ -55,6 +55,7 @@ WIN_COMBINATIONS = [
   valid = false
 else
   valid = true
+end
   end
 
   def turn_count
