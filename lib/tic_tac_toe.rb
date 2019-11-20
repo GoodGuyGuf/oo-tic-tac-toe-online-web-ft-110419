@@ -86,6 +86,7 @@ WIN_COMBINATIONS = [
 
 
   def full?
+    binding.pry
     @board.all? do |combos|
       
     end
