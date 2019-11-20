@@ -79,6 +79,9 @@ WIN_COMBINATIONS = [
     @board[combo.first] != " "
     end
   end
+  #The logic is that we don't know the outcome like the spec does.
+  #We don't actually know if the winning combo is [0,4,8]
+  #This method should work on any winning combo.
 
 
   def full?
