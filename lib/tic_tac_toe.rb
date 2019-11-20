@@ -105,7 +105,7 @@ WIN_COMBINATIONS = [
   end
 
   def winner
-
+@board[X] || @board[O]
   end
 
   def play
