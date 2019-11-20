@@ -95,8 +95,6 @@ WIN_COMBINATIONS = [
     end
   end
 
-
-
   def draw?
 
   end
