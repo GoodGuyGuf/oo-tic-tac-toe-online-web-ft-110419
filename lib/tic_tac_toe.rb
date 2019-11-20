@@ -49,9 +49,9 @@ WIN_COMBINATIONS = [
     if position_taken?(index)
       valid = false
     elsif index < 0 || index > 8
-      valid = false
+      false
     else
-      valid = true
+      true
     end
   end
 
