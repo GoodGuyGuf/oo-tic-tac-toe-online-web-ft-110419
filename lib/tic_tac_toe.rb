@@ -40,7 +40,7 @@ WIN_COMBINATIONS = [
       end
     position
   end
-# if position is taken it is equal to false
+# if position is taken it is not a valid move. It is false.
 # if index is a number that is not allowed than it is returned false
   def valid_move?(index)
     if position_taken?(index)
