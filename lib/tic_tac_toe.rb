@@ -50,6 +50,8 @@ WIN_COMBINATIONS = [
   valid = true
   if position_taken
     valid = false
+  elsif 
+    
   end
 
   def turn_count
