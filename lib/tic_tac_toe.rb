@@ -83,7 +83,7 @@ WIN_COMBINATIONS = [
 
 
   def full?
-    
+    @board.length
   end
 
 
