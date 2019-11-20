@@ -56,7 +56,7 @@ WIN_COMBINATIONS = [
     puts "Play using numbers 1-9!"
     input = gets
     index = input_to_index(input)
-    valid_move?
+    
     move(index, current_player)
 
   end
