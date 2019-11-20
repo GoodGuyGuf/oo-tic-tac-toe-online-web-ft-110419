@@ -87,8 +87,13 @@ WIN_COMBINATIONS = [
   #Should return true for a draw
   #should return false if the board isn't filled
   #Should return true if every element in @board contains either an X or O
-  def full?
-    
+  def full?(index)
+    if @position_taken(index) == @board.length
+      true
+    else
+      false
+    end
+  end
 
 
 
