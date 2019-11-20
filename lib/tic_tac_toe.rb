@@ -102,6 +102,7 @@ WIN_COMBINATIONS = [
   elsif won?
     false
   end
+  end
 
   def over?
   won? || draw? || full?
