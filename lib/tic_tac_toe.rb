@@ -55,12 +55,7 @@ WIN_COMBINATIONS = [
   def turn
     puts "Play using numbers 1-9!"
     gets current_player
-    if valid_move?
-      move
-      display_board
-    else
-      gets current_player
-    end
+  
 
   end
 
