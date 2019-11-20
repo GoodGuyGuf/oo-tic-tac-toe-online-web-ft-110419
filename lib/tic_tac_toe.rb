@@ -52,10 +52,10 @@ WIN_COMBINATIONS = [
   turn_count % 2 == 0 ? "X" : "O"
   end
 
-  def turn
+  def turn(input)
     puts "Play with numbers 1-9!"
     gets current_player
-    input_to_index[current_player]
+    input_to_index(input)
   end
 
 
