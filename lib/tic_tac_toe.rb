@@ -142,7 +142,8 @@ WIN_COMBINATIONS = [
   def play
   "Hello players! Enter your input!"
   input = gets
-  
+  index = input_to_index(input)
+
   end
 
 end
