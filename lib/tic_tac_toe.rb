@@ -61,7 +61,6 @@ WIN_COMBINATIONS = [
         display_board
       else
         input = gets
-
     end
   end
 
