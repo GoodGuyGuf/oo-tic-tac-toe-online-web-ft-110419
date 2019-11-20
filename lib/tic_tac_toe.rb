@@ -52,10 +52,10 @@ WIN_COMBINATIONS = [
   turn_count % 2 == 0 ? "X" : "O"
   end
 
-  def turn(index)
+  def turn
 
 
-    if valid_move?(index)
+    if valid_move?
       move
       display_board
     else
