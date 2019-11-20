@@ -94,12 +94,7 @@ WIN_COMBINATIONS = [
     #full should take every element as either an x or an o.
 
     #if the board length is less than the board count it should return false
-    if @board.length == @board.length
-      true
-    elsif @board.length < @board.length
-      false
-    end
-  end
+    
 
 
   def draw?
