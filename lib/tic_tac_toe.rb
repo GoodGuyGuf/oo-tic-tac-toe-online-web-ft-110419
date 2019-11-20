@@ -53,7 +53,8 @@ WIN_COMBINATIONS = [
   end
 
   def turn(input)
-    
+    gets input_to_index(input)
+
 
   end
 
