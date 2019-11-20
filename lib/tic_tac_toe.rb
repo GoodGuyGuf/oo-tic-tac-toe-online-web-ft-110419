@@ -54,7 +54,8 @@ WIN_COMBINATIONS = [
 
   def turn
 
-    gets input
+    user_input = gets input
+    input_to_index(user_input)
     if valid_move?
       move
       display_board
