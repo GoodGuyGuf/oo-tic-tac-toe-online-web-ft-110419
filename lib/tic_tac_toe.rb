@@ -60,6 +60,7 @@ WIN_COMBINATIONS = [
         move(index, current_player)
         display_board
     else
+      binding.pry
         input = gets
     end
   end
