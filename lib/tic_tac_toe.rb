@@ -117,6 +117,18 @@ WIN_COMBINATIONS = [
     end
   end
 
+#until the game is over
+  #take turns
+#end
+
+#if the game was won
+  #congratulate the winner
+#else if the game was a draw
+#  tell the players it ended in a draw
+#end
+
+
+
   def play
 
   end
