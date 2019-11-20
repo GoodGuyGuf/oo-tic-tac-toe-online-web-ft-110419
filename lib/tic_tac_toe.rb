@@ -90,7 +90,7 @@ WIN_COMBINATIONS = [
     #should return false if the board isn't filled
     #Should return true if every element in @board contains either an X or O
 
-    #won? contains a winning combo. 
+    #won? contains a winning combo.
     #full should take every element as either an x or an o.
     @board.length == " " || @board.length == @board[0] || @board[1]
   end
