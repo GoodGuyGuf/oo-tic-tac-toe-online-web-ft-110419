@@ -60,9 +60,8 @@ WIN_COMBINATIONS = [
       move
       display_board
     else
-      
-
-
+      gets current_player
+    end
   end
 
 
