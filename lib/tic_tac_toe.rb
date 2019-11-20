@@ -86,6 +86,7 @@ WIN_COMBINATIONS = [
     @board.length
     #Should return true for a draw
     #should return false if the board isn't filled
+    #Should return true if every element in @board contains either an X or O
   end
 
 
