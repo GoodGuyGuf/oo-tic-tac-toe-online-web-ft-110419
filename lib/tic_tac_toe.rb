@@ -81,7 +81,6 @@ WIN_COMBINATIONS = [
     @board[combo.first] == @board[combo[1]] &&
     @board[combo.first] == @board[combo[2]] &&
     @board[combo.first] != " "
-
     end
 
   end
