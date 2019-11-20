@@ -101,6 +101,8 @@ WIN_COMBINATIONS = [
     true
   elsif won? && full?
     false
+  elsif won?
+    false
   end
 end
 
