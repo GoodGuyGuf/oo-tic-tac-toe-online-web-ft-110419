@@ -59,6 +59,7 @@ WIN_COMBINATIONS = [
 
     move(index, current_player)
     display_board
+    
   end
 
 
