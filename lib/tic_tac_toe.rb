@@ -100,7 +100,7 @@ WIN_COMBINATIONS = [
   if full?
     true
   elsif won? && full?
-    false
+    true
   elsif won?
     false
   end
