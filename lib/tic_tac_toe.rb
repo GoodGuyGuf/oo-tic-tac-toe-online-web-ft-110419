@@ -137,6 +137,8 @@ WIN_COMBINATIONS = [
 #should congratulate the winner X
 #should congratulate the winner O
 #should stop playing in a draw
+#should print "Cat\'s Game!" on a draw
+#
   def play
 
   end
