@@ -86,6 +86,7 @@ WIN_COMBINATIONS = [
   if @board.all? = 'X' || 'O'
     true
   end
+end
 
   def draw?
 
