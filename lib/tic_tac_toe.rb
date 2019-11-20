@@ -84,6 +84,8 @@ WIN_COMBINATIONS = [
 
   def full?
     @board.length
+    #Should return true for a draw
+    #should return false if the board isn't filled
   end
 
 
