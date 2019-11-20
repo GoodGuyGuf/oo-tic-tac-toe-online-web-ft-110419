@@ -106,6 +106,9 @@ WIN_COMBINATIONS = [
 #Given a winning @board,
 #the #winner method should return the token, "X" or "O",
 #that has won the game.
+#it should return X if X wins
+#it should return O if O wins
+#should return nil if draw
   def winner
 
   end
