@@ -54,16 +54,9 @@ WIN_COMBINATIONS = [
 
   def turn
     puts "Play with numbers 1-9!"
-    gets move
+    
 
-    if valid_move?
-      move
-      display_board
-    else
- game_speech
-
-    end
-
+    
   end
 
   def won?
