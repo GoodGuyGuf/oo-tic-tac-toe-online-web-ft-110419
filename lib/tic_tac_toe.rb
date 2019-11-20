@@ -86,7 +86,6 @@ WIN_COMBINATIONS = [
   if @board.all? == 'X' || 'O'
     true
   elsif @board.all? == " "
-    
     false
   end
 end
