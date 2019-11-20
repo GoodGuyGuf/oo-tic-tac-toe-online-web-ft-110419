@@ -90,12 +90,10 @@ WIN_COMBINATIONS = [
  # if the board length is less than 9 then it is not full.
  # if the board length has a winner or a draw then it is full.
   full = true
-    if @board.all? == false
-      full = false
+    if @board.length < 9
+  full = false
     end
-      full
   end
-
   def draw?
 
   end
