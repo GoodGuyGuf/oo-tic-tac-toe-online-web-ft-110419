@@ -69,7 +69,7 @@ WIN_COMBINATIONS = [
   end
 
   def draw?
-    won? || full?
+  won? || full?
 
   end
 
