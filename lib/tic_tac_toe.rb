@@ -130,6 +130,7 @@ WIN_COMBINATIONS = [
 #should ask for players input on a turn of the game
 #should check if the game is over after every turn
 #should play the first turn of the game
+#should play the first few turns of the game
   def play
 
   end
