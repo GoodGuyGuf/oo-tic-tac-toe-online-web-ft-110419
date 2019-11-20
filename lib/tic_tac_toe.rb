@@ -93,7 +93,7 @@ WIN_COMBINATIONS = [
     @board.any? {|position| position == " "} ? false : true
   end
 
-#Build a method #draw? 
+#Build a method #draw?
 #that returns true if the board is full and has not been won, 
 #false if the board is won, and false if the board is neither won nor full.
   def draw?
