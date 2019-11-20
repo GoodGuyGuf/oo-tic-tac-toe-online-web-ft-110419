@@ -96,7 +96,7 @@ WIN_COMBINATIONS = [
     #if the board length is less than the board count it should return false
     if won?
       true
-      if won? == false
+      elsif won? == false
         false
       end
   end
