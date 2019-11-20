@@ -127,6 +127,9 @@ WIN_COMBINATIONS = [
 #  tell the players it ended in a draw
 #end
 
+#should ask for players input on a turn of the game
+#should check if the game is over after every turn
+#should play the first turn of the game
   def play
 
   end
