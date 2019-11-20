@@ -87,7 +87,7 @@ WIN_COMBINATIONS = [
 
   def full?
     @board.all? do |combos|
-      combos = combo.first
+      combos = combos.first
     end
   end
 
