@@ -59,8 +59,8 @@ WIN_COMBINATIONS = [
     if valid_move?(input)
       display_board
 
-
   end
+end
 
   def won?
 
