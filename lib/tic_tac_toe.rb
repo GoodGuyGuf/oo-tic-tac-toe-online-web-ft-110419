@@ -111,7 +111,7 @@ WIN_COMBINATIONS = [
 #should return nil if draw
   def winner
     if won?
-      @board[0] || @board[1]
+      return @board[0] || @board[1]
     else
       nil
     end
