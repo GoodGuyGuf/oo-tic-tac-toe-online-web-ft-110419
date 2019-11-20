@@ -96,7 +96,7 @@ WIN_COMBINATIONS = [
     #if the board length is less than the board count it should return false
     if @board == @board.length
       true
-    elsif @board < @board.length
+    elsif @board.length < @board.length
       false
     end
   end
