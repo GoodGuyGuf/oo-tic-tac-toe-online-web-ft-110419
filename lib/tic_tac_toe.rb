@@ -88,7 +88,7 @@ WIN_COMBINATIONS = [
   def full?
     binding.pry
     @board.each do |array|
-    
+
     end
   end
 
