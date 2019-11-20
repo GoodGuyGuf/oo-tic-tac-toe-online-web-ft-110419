@@ -75,7 +75,7 @@ WIN_COMBINATIONS = [
   end
 
 
-  def won?(winning_combo)
+  def won?
     WIN_COMBINATIONS.detect do |combo|
 
 
