@@ -142,7 +142,7 @@ WIN_COMBINATIONS = [
   def play
   "Hello players! Enter your input!"
   input = gets
-  @board(input)
+  @board[input]
   end
 
 end
