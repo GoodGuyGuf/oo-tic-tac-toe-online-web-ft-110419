@@ -86,9 +86,9 @@ WIN_COMBINATIONS = [
 
 
   def full?
-  if @board.all do |combos|
-    combos = combo.first
-
+    if @board.all do |combos|
+      combos = combo.first
+    end
   end
 
   def draw?
