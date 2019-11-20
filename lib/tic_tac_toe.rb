@@ -52,9 +52,9 @@ WIN_COMBINATIONS = [
   turn_count % 2 == 0 ? "X" : "O"
   end
 
-  def turn(input)
-    game_speech = puts input
-    user_input = gets input
+  def turn
+    puts "Play with numbers 1-9!"
+    user_input = gets move
     input_to_index(user_input)
     if valid_move?
       move
