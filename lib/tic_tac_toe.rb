@@ -83,7 +83,7 @@ WIN_COMBINATIONS = [
 
 
   def full?
-  if @board.all? = 'X' || 'O'
+  if @board.all? == 'X' || 'O'
     true
   end
 end
