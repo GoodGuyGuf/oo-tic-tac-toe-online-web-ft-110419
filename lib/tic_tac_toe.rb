@@ -54,7 +54,8 @@ WIN_COMBINATIONS = [
 
   def turn(input)
     puts "Play with numbers 1-9!"
-    
+
+  end
 
 
   def won?
