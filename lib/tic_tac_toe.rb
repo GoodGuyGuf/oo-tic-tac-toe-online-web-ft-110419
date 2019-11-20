@@ -94,6 +94,10 @@ WIN_COMBINATIONS = [
   full = false
     end
   end
+
+
+
+  
   def draw?
 
   end
