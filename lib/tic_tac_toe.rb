@@ -55,8 +55,9 @@ WIN_COMBINATIONS = [
   def turn(input)
     puts "Play with numbers 1-9!"
     current_player
-    
+
       if valid_move?(input)
+        move(input)
          display_board
 
   end
