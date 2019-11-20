@@ -53,7 +53,7 @@ WIN_COMBINATIONS = [
   end
 
   def turn
-
+    puts "It is your turn!"
     user_input = gets input
     input_to_index(user_input)
     if valid_move?
