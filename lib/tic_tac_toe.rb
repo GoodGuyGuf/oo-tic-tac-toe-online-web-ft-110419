@@ -42,6 +42,7 @@ WIN_COMBINATIONS = [
   end
 
   def valid_move?(index)
+    binding.pry
   @board[index] != position_taken?(index)
   end
 
