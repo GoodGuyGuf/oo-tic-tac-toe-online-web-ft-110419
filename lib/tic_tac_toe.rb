@@ -106,7 +106,7 @@ WIN_COMBINATIONS = [
 
   def winner
   self.won?
-  return current_player
+  return !current_player
   end
 
   def play
