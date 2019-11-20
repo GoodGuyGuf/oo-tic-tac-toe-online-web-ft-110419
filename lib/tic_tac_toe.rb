@@ -105,7 +105,7 @@ WIN_COMBINATIONS = [
   end
 
   def winner
-  current_player('X' || 'O')
+  current_player
   end
 
   def play
