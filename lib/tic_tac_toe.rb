@@ -86,15 +86,11 @@ WIN_COMBINATIONS = [
 
 
   def full?
+  end
     #Should return true for a draw
     #should return false if the board isn't filled
     #Should return true if every element in @board contains either an X or O
 
-    #won? contains a winning combo.
-    #full should take every element as either an x or an o.
-
-    #if the board length is less than the board count it should return false
-    
 
 
   def draw?
