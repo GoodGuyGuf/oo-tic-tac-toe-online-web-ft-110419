@@ -83,7 +83,9 @@ WIN_COMBINATIONS = [
 
 
   def full?
-
+    WIN_COMBINATIONS.detect do |combo|
+    @board[combo.first] == @board[combo.first
+    end
 
   end
 
