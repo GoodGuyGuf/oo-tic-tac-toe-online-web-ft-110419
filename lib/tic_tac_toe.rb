@@ -89,7 +89,10 @@ WIN_COMBINATIONS = [
   def full?
  # if the board length is less than 9 then it is not full.
  # if the board length has a winner or a draw then it is full.
-  
+    @board.detect do |space|
+      space == " " ? true : false
+    end
+  end
 
 
   def draw?
