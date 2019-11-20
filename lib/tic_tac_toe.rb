@@ -93,7 +93,7 @@ WIN_COMBINATIONS = [
     if @board.all? == false
       full = false
     end
-      
+      full
   end
 
   def draw?
