@@ -76,6 +76,7 @@ WIN_COMBINATIONS = [
   #We don't actually know if the winning combo is [0,4,8]
   #This method should work on any winning combo.
   def won?
+    binding.pry
     WIN_COMBINATIONS.detect do |combo|
     @board[combo.first] == @board[combo[1]] &&
     @board[combo.first] == @board[combo[2]] &&
