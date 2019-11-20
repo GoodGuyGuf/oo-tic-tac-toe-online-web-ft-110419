@@ -56,7 +56,7 @@ WIN_COMBINATIONS = [
     puts "Play with numbers 1-9!"
     gets current_player
     player = current_player.to_i
-    @board(player).input_to_index
+    @board[player].input_to_index
 
   end
 
