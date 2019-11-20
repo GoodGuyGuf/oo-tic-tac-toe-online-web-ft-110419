@@ -65,7 +65,7 @@ WIN_COMBINATIONS = [
 
 
   def full?
-  
+
   end
 
   def draw?
@@ -81,6 +81,7 @@ WIN_COMBINATIONS = [
   end
 
   def play
+    
   end
 
 end
