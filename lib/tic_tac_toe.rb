@@ -98,13 +98,11 @@ WIN_COMBINATIONS = [
 #false if the board is won, and false if the board is neither won nor full.
   def draw?
   if full?
-    false
+    true
   elsif won?
     false
   elsif won? && full?
     false
-  else
-    true
   end
 end
 
