@@ -56,7 +56,7 @@ WIN_COMBINATIONS = [
     puts "Play with numbers 1-9!"
     gets current_player
 
-    if valid_move?(current_player)
+    if valid_move?
       move
       display_board
     else
