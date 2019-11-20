@@ -49,13 +49,13 @@ WIN_COMBINATIONS = [
   #Should expect 4 to be falsey because it is occupied
 
   valid = true
-  if position_taken?
-    valid = false
-  elsif index < 0 || index > 8
-  valid = false
-else
-  valid = true
-end
+    if position_taken?
+      valid = false
+    elsif index < 0 || index > 8
+      valid = false
+    else
+      valid = true
+    end
   end
 
   def turn_count
