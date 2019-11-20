@@ -90,7 +90,7 @@ WIN_COMBINATIONS = [
   # if the board length is less than 9 then it is not full.
   # if the board length has a winner or a draw then it is full.
   def full?
-    @board.all? {|letter| letter == 'X' || 'O'} ? true : false
+    @board.all? {|letter| letter == 'X' || 'O'} ? false : true
   end
 
 
