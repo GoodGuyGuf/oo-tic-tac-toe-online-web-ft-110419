@@ -52,7 +52,7 @@ WIN_COMBINATIONS = [
   turn_count % 2 == 0 ? "X" : "O"
   end
 
-  def turn
+  def turn(input)
     puts "It is your turn!"
     user_input = gets input
     input_to_index(user_input)
