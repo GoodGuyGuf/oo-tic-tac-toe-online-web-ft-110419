@@ -52,8 +52,8 @@ WIN_COMBINATIONS = [
   turn_count % 2 == 0 ? "X" : "O"
   end
 
-  def turn(input)
-    @board.gets(input)
+  def turn
+    @board.gets(1)
 
   end
 
