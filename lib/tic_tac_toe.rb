@@ -98,7 +98,7 @@ WIN_COMBINATIONS = [
       true
     elsif @board < @board.length
       false
-binding.pry
+    end
   end
 
 
