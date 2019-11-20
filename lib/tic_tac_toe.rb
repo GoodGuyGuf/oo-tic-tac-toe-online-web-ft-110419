@@ -66,7 +66,7 @@ WIN_COMBINATIONS = [
 
 
   def full?(array)
-    !!@board.length == @board[array]
+    !!@board.length == @board(array)
   end
 
   def draw?
