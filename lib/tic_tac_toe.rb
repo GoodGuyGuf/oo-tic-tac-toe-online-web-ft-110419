@@ -59,7 +59,7 @@ WIN_COMBINATIONS = [
       move
       display_board
     else
-    
+
 
     end
 
