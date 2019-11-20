@@ -82,7 +82,7 @@ WIN_COMBINATIONS = [
 
 
   def full?
-    !!@board.length
+    
   end
 
   def draw?
