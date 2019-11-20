@@ -90,8 +90,6 @@ WIN_COMBINATIONS = [
   def full?
     if @board.length < @board.size
       false
-    else
-      true
     end
   end
 
