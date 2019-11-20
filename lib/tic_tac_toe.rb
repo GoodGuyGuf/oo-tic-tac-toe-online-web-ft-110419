@@ -53,6 +53,8 @@ WIN_COMBINATIONS = [
     valid = false
   elsif index < 0 || index > 8
   valid = false
+else
+  valid = true
   end
 
   def turn_count
