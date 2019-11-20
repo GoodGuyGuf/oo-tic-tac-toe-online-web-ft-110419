@@ -87,7 +87,7 @@ WIN_COMBINATIONS = [
 
 
   def draw?
-WIN_COMBINATIONS == false
+    WIN_COMBINATIONS == false
   end
 
   def over?
