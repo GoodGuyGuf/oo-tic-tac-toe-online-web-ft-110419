@@ -103,9 +103,11 @@ WIN_COMBINATIONS = [
   def over?
   won? || draw? || full?
   end
-
+#Given a winning @board,
+#the #winner method should return the token, "X" or "O",
+#that has won the game.
   def winner
-  
+
   end
 
   def play
