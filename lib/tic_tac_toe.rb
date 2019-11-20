@@ -140,7 +140,8 @@ WIN_COMBINATIONS = [
 #should play through an entire game
 
   def play
-
+  "Hello players! Enter your input!"
+  over? ? false : true
   end
 
 end
