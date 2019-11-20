@@ -79,7 +79,8 @@ WIN_COMBINATIONS = [
     WIN_COMBINATIONS.detect do |combo|
       binding.pry
     @board[combo.first] == @board[combo[1]] && 
-    @board[combo.first] == @board[combo[2]]
+    @board[combo.first] == @board[combo[2]] &&
+    @board[0]
 
     end
 
